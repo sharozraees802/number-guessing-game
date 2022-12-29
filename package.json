@@ -6,6 +6,9 @@
   "main": "index.js",
   "bin": "index.js",
   "scripts": {
+    "start": "tsc.cmd index.ts && node index.js",
+    "start:compile": "tsc --watch",
+    "start:server": "node index.js --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
